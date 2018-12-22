@@ -1,0 +1,34 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  .footer__text{
+    .footer__text-top{
+      color: #373737;
+      font-family: $main-font;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+    }
+    .footer__text-bottom{
+      color: #373737;
+      font-family: $main-font;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+
+}
+@media screen and (max-width: 575.98px){
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .footer__img{
+      padding-top: 20px;
+    }
+  }
+}
